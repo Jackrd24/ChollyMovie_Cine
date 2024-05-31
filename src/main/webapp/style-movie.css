@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+}
+
+header .logo {
+    color: black;
+}
+
+header ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+header ul li a {
+    padding: 20px;
+    color: white;
+}
+
+.semanal {
+    background-color: white;
+}
+
+.semanal h2 {
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.proximamente h2 {
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.proximamente {
+    background-color: #E7E7E7;
+}
+
+.carrusel {
+    display: flex;
+    justify-content: center;
+}
+
+.carrusel .tarjeta {
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+    background-color: #E8DC7B;
+    border-radius: 10px;
+}
+
+.carrusel .tarjeta img {
+    width: 150px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.carrusel .tarjeta a {
+    color: #000;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: grey;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    padding-top: 10px;
+}
+
+.funcion-block {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+}
+
+.horas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.horas button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 5px;
+}

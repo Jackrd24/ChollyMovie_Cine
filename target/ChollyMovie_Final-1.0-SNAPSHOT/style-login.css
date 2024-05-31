@@ -1,0 +1,54 @@
+/*Formato de la página web*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*Formulario*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form {
+    background-color: #E8DC7B;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 420px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+form h2 {
+    margin-bottom: 20px;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+form button {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+form button:hover {
+    cursor: pointer;
+}
+
+form a {
+    padding-top: 20px;
+    text-decoration: underline;
+}
